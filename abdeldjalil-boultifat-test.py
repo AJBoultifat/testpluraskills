@@ -10,6 +10,7 @@ for i in range(0, int(1000)):
 
     
 '''Print the list to confirm that it is well appended'''
+print('The list :')
 print(List)
 
 '''Calculation'''
