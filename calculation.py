@@ -1,3 +1,4 @@
+'''A Class that allows to calculate the devisers of a list'''
 '''Calculation'''
 class calculate(object):
     @staticmethod
