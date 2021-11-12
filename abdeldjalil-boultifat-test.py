@@ -1,16 +1,6 @@
 
 import random
-
-'''Calculation'''
-def functionTest(List):
-    i = 0
-    for l in List:
-        if((l%3 == 0) and (l%5 == 0)): print(str(i) +': '+ str(l) + ' is FizzBuzz')
-        if(l%5 == 0): print(str(i) +': '+str(l) +' is Buzz')
-        if(l%3 == 0): print(str(i) +': '+str(l) +' is Fizz')
-        if((l%3 != 0) and (l%5 != 0)): print(str(i) +': '+str(l))
-        i = i + 1
-    
+from calculation import calculate as cal
 
 '''List void'''
 List = []
@@ -25,5 +15,5 @@ for i in range(0, int(1000)):
 print('The list :')
 print(List)
 print('Calculate :')
-functionTest(List)
+cal.functionTest(List)
 
